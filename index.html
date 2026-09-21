@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Lämpötilamuunnin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+    <h1>Lämpötilamuunnin</h1>
+    </div>
+
+    <div class="d-block">
+    <select id="muunnos">
+        <option value="celsius-fahrenheit">Celsius -> Fahrenheit</option>
+        <option value="fahrenheit-celsius">Fahrenheit -> Celsius</option>
+        <option value="celsius-kelvin">Celsius -> Kelvin</option>
+        <option value="kelvin-celsius">Kelvin -> Celsius</option>
+    </select>
+    </div>
+
+    <br>
+
+    <label for="lampotila">Syötä lämpötila:</label>
+    <br>
+
+    <input type="text" id="lampotila">
+
+    <button id="muunna">Muunna</button>
+
+    <br>
+
+    <input type="radio" name="desimaalit" value="1" checked>
+    1 desimaali
+
+    <br>
+
+    <input type="radio" name="desimaalit" value="2">
+    2 desimaalia
+
+    <br>
+
+    <input type="radio" name="desimaalit" value="3">
+    3 desimaalia
+
+    <p id="vastaus"></p>
+
+    <script src="main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
