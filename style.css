@@ -8,10 +8,15 @@ h1 {
 
 #vastaus {
     margin-top: 15px;
+    background-color: #1da5ad;
+    max-width: 360px;
+    color: #ffffff;
+    border-radius: 5px;
 }
 
 .container {
     display: inline-block;
+    border-radius: 5px;
     padding-top: 15px;
     max-width: 360px;
     background-color: #1da5ad;
@@ -22,3 +27,9 @@ h1 {
     padding-top: 30px;
     max-width: 360px;
 }
+
+h1 {
+    color: #ffffff;
+ 
+}
+
